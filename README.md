@@ -85,77 +85,49 @@ gatsby-plugin-sass
 gatsby-plugin-schema-snapshot
 | GraphQL のスキーマのスナップショットファイルを生成するためのプラグインです。デフォルトで `schema.gql` という名前のファイルに出力します。 |
 gatsby-plugin-sharp
-| 画像処理ライブラリの sharp を利用するためのプラグインです。画像をレスポンシブ化する際によく利用されます。
-|
+| 画像処理ライブラリの sharp を利用するためのプラグインです。画像をレスポンシブ化する際によく利用されます。 |
 gatsby-plugin-sitemap
-|
-|
+| マシン向けのサイトマップ（ `sitemap.xml` ）を生成するためのプラグインです。 |
 gatsby-plugin-styled-components
-|
-|
+| [`styled-components`](https://github.com/styled-components/styled-components) を利用するためのプラグインです。 |
 gatsby-plugin-styled-jsx
-|
-|
+| [`styled-jsx`](https://github.com/vercel/styled-jsx) を利用するためのプラグインです。 |
 gatsby-plugin-styletron
-|
-|
+| [Styletron](https://github.com/styletron/styletron) を利用するためのプラグインです。 |
 gatsby-plugin-stylus
-|
-|
+| [Stylus](https://www.stylus.com/) を利用するためのプラグインです。 |
 gatsby-plugin-subfont
-|
-|
+| Google fonts 等のウェブフォントの配信を最適化するためのライブラリ [Subfont](https://github.com/Munter/subfont#readme) を利用するためのプラグインです。 |
 gatsby-plugin-twitter
-|
-|
+| Twitter のツイートやタイムラインやシェアボタンをページに埋め込むためのプラグインです。 |
 gatsby-plugin-typescript
-| TypeScript を利用するためのプラグインです。 Gatsby 本体が利用しています。
-|
+| TypeScript を利用するためのプラグインです。 Gatsby 本体が利用しています。 |
 gatsby-plugin-typography
-|
-|
-gatsby-react-router-scroll
-|
-|
-gatsby-recipes
-|
-|
+| タイポグラフィー・フォント周りの設定を行うための [Typography](https://kyleamathews.github.io/typography.js/) を利用するためのプラグインです。 |
 gatsby-remark-autolink-headers
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内の各見出し（ `h1` - `h6` ）にリンク付きのアイコンを付けられるプラグインです（ GitHub の README にあるようなものです）。 |
 gatsby-remark-code-repls
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内でウェブ上で JS コードを試せる Codepen 等のサービスへのリンクを生成できるプラグインです。 |
 gatsby-remark-copy-linked-files
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内でリンクで参照されているファイルを public フォルダにコピーするプラグインです。 |
 gatsby-remark-custom-blocks
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内で使えるカスタムブロックを定義して利用できるプラグインです。 [`remark-custom-blocks`](https://github.com/zestedesavoir/zmarkdown/tree/master/packages/remark-custom-blocks) を使用します。 |
 gatsby-remark-embed-snippet
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内でファイルの中身をコードスニペットとして埋め込めるプラグインです。動作には `gatsby-remark-prismjs` が必要です。 |
 gatsby-remark-graphviz
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内の [Graphviz](https://www.graphviz.org/) のコードブロックを SVG 画像に変換してくれるプラグインです。しかし、このプラグインが利用する [Viz.js](https://github.com/mdaines/viz.js/) の開発が終了しています。 |
 gatsby-remark-images-contentful
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Contentful の Image API を使って Markdown 内の画像をレスポンシブ化するためのプラグインです。 |
 gatsby-remark-images
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内の画像をレスポンシブ化するためのプラグインです。 |
 gatsby-remark-katex
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内に数式を書くためのプラグインです。 |
 gatsby-remark-prismjs
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内のコードブロックにシンタックスハイライトを追加できるプラグインです。シンタックスハイライト用のライブラリ [Prism](https://prismjs.com/) を使用します。 |
 gatsby-remark-responsive-iframe
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内の `<iframe>` タグの縦横比を維持するためのプラグインです。 |
 gatsby-remark-smartypants
-|
-|
+| `gatsby-transformer-remark` のサブプラグインで、 Markdown 内のアルファベットの句読点をきれいな形に変換してくれるプラグインです。 |
 gatsby-source-contentful
 |
 |
