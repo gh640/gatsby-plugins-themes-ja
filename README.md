@@ -13,6 +13,9 @@
 
 ## プラグイン
 
+プラグインの名前にルールがあって、先頭が `gatsby-source-` のものはデータソースからコンテンツを取得するもの、 `gatsby-transformer-` のものは取得したコンテンツをパースしたり変換したりするもの、 `gatsby-plugin-` のものはその他の機能を提供するプラグインです。
+また、 `gatsby-transformer-remark` のサブプラグインの先頭は `gatsby-remark-` になっています。
+
 | 名前 | 説明 |
 | --- | --- |
 | [`gatsby-plugin-canonical-urls`](https://www.gatsbyjs.org/packages/gatsby-plugin-canonical-urls) | HTML の `<head>` 内に `canonical` リンクを追加するためにプラグインです。 |
@@ -104,6 +107,8 @@
 | [`gatsby-transformer-yaml`](https://www.gatsbyjs.org/packages/gatsby-transformer-yaml) | YAML ファイルをコンテンツソースとしてパースするためのプラグインです。 |
 
 ## テーマ
+
+テーマは名前が `gatsby-theme-` で始まります。
 
 | 名前 | 説明 |
 | --- | --- |
