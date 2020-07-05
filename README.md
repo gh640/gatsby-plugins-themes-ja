@@ -21,8 +21,8 @@
 | [`gatsby-plugin-canonical-urls`](https://www.gatsbyjs.org/packages/gatsby-plugin-canonical-urls) | HTML の `<head>` 内に `canonical` リンクを追加するためにプラグインです。 |
 | [`gatsby-plugin-catch-links`](https://www.gatsbyjs.org/packages/gatsby-plugin-catch-links) | `gatsby-link` を使わずに作られたサイト内リンクに `gatsby-link` の挙動を反映するためのプラグインです。 Markdown ファイルの中でサイト内リンクを使っているとき等に便利です。 |
 | [`gatsby-plugin-coffeescript`](https://www.gatsbyjs.org/packages/gatsby-plugin-coffeescript) | CoffeeScript と CJSX を利用するためのプラグインです。 |
-| [`gatsby-plugin-create-client-paths`](https://www.gatsbyjs.org/packages/gatsby-plugin-create-client-paths) | 動的に動くパスを持った、動的と静的のハイブリッドな Gatsby アプリを作るためのプラグインです。 | gatsby-plugin-cxs
-| css-in-js の [cxs](https://github.com/cxs-css/cxs) を利用するためのプラグインです。 |
+| [`gatsby-plugin-create-client-paths`](https://www.gatsbyjs.org/packages/gatsby-plugin-create-client-paths) | 動的に動くパスを持った、動的と静的のハイブリッドな Gatsby アプリを作るためのプラグインです。 |
+| [`gatsby-plugin-cxs`](https://www.gatsbyjs.org/packages/gatsby-plugin-cxs) | css-in-js の [cxs](https://github.com/cxs-css/cxs) を利用するためのプラグインです。 |
 | [`gatsby-plugin-emotion`](https://www.gatsbyjs.org/packages/gatsby-plugin-emotion) | css-in-js の [Emotion](https://github.com/emotion-js/emotion)　を利用するためのプラグインです。 |
 | [`gatsby-plugin-facebook-analytics`](https://www.gatsbyjs.org/packages/gatsby-plugin-facebook-analytics) | [Facebook Analytics](https://analytics.facebook.com/) を利用するためのプラグインです。 |
 | [`gatsby-plugin-feed`](https://www.gatsbyjs.org/packages/gatsby-plugin-feed) | RSS フィードを生成するためのプラグインです。 |
@@ -44,8 +44,8 @@
 | [`gatsby-plugin-no-sourcemaps`](https://www.gatsbyjs.org/packages/gatsby-plugin-no-sourcemaps) | ソースマップを生成しないようにするためのプラグインです。 Webpack の設定のためのほんの数行のコードからなるプラグインです。 |
 | [`gatsby-plugin-nprogress`](https://www.gatsbyjs.org/packages/gatsby-plugin-nprogress) | [Nprogress.js](http://ricostacruz.com/nprogress/) を利用するためのプラグインです。 |
 | [`gatsby-plugin-offline`](https://www.gatsbyjs.org/packages/gatsby-plugin-offline) | ネットワーク環境が悪い場合でもサイトがなるべく動くようにするためのプラグインです。 Service Worker を追加します。 `gatsby-plugin-manifest` と併用することが推奨されています。 |
-| [`gatsby-plugin-page-creator`](https://www.gatsbyjs.org/packages/gatsby-plugin-page-creator) | 指定されたパスの下の React コンポーネントを含むファイルからページを自動生成するためのプラグインです。 Gatsby 本体が利用しており、デフォルトでは `src/pages` 以下のファイルが対象になっています。 | gatsby-plugin-postcss
-| [PostCSS](https://postcss.org/) を利用するためのプラグインです。 |
+| [`gatsby-plugin-page-creator`](https://www.gatsbyjs.org/packages/gatsby-plugin-page-creator) | 指定されたパスの下の React コンポーネントを含むファイルからページを自動生成するためのプラグインです。 Gatsby 本体が利用しており、デフォルトでは `src/pages` 以下のファイルが対象になっています。 |
+[`gatsby-plugin-postcss`](https://www.gatsbyjs.org/packages/gatsby-plugin-postcss) | [PostCSS](https://postcss.org/) を利用するためのプラグインです。 |
 | [`gatsby-plugin-preact`](https://www.gatsbyjs.org/packages/gatsby-plugin-preact) | React の軽量版である [Preact](https://preactjs.com/) を利用するためのプラグインです。 |
 | [`gatsby-plugin-preload-fonts`](https://www.gatsbyjs.org/packages/gatsby-plugin-preload-fonts) | パフォーマンス改善のために、ページで使われているフォントを `<link rel="preload">` で先読みするためのプラグインです。 |
 | [`gatsby-plugin-react-css-modules`](https://www.gatsbyjs.org/packages/gatsby-plugin-react-css-modules) | React コンポーネント内の `styleName` を `className` に変換するプラグインです。 Gatsby は CSS モジュールをデフォルトでサポートしているため、このプラグインは通常必要ありません。 |
