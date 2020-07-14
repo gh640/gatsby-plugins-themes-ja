@@ -1,5 +1,7 @@
 # Gatsby 公式のプラグイン・テーマまとめ
 
+![Gatsby](https://raw.githubusercontent.com/gh640/gatsby-plugins-themes-ja/main/assets/gatsbyjs_org.png)
+
 静的サイトジェネレータ（ SSG ）である Gatsby が公式に提供するプラグインとテーマの一覧です。
 
 正確には「公式の monorepo リポジトリに含まれているプラグインとテーマ」の一覧です。
