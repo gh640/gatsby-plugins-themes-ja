@@ -1,8 +1,8 @@
 # Gatsby 公式のプラグイン・テーマまとめ
 
-静的サイトジェネレータ（ SSG ）である Gatsby が公式に提供するプラグインとテーマの一覧です。
+React ベースの静的サイトジェネレータ（ SSG ）である [Gatsby](https://www.gatsbyjs.org/) が公式に提供するプラグインとテーマについてまとめました。
 
-正確には「公式の monorepo リポジトリに含まれているプラグインとテーマ」の一覧です。
+正確には、公式の monorepo リポジトリ ↓ に含まれているプラグインとテーマの一覧です。
 
 - [gatsby/packages at master · gatsbyjs/gatsby · GitHub](https://github.com/gatsbyjs/gatsby/tree/master/packages)
 
@@ -13,7 +13,12 @@
 
 ## プラグイン
 
-プラグインの名前にルールがあって、先頭が `gatsby-source-` のものはデータソースからコンテンツを取得するもの、 `gatsby-transformer-` のものは取得したコンテンツをパースしたり変換したりするもの、 `gatsby-plugin-` のものはその他の機能を提供するプラグインです。
+Gatsby プラグインの名前にはルールがあって、おおよそ次のとおりとなっています。
+
+- `gatsby-source-`: データソースからコンテンツを取得するもの
+- `gatsby-transformer-`: 取得したコンテンツをパースしたり変換したりするもの
+- `gatsby-plugin-`: その他の機能を提供するプラグイン
+
 また、 `gatsby-transformer-remark` のサブプラグインの先頭は `gatsby-remark-` になっています。
 
 | 名前 | 説明 |
