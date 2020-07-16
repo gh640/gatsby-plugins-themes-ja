@@ -7,6 +7,7 @@ React ベースの静的サイトジェネレーター [Gatsby](https://www.gats
 正確には、公式の monorepo リポジトリ ↓ に含まれているプラグインとテーマの一覧です。
 
 - [gatsby/packages at master · gatsbyjs/gatsby · GitHub](https://github.com/gatsbyjs/gatsby/tree/master/packages)
+- [themes/packages at master · gatsbyjs/themes · GitHub](https://github.com/gatsbyjs/themes/tree/master/packages)
 
 対象の Gatsby のバージョンは `gatsby@2` です。
 
