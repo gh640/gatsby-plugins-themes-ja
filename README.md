@@ -121,5 +121,6 @@ Gatsby プラグインの名前にはルールがあって、おおよそ次の�
 | --- | --- |
 | [`gatsby-theme-blog`](https://www.gatsbyjs.org/packages/gatsby-theme-blog) | シンプルなブログ作成用のテーマです。 `gatsby-theme-blog-core` を親テーマとして利用しています。 |
 | [`gatsby-theme-blog-core`](https://www.gatsbyjs.org/packages/gatsby-theme-blog-core) | シンプルなブログ作成用のテーマです。通常は子テーマの `gatsby-theme-blog` を使うことが想定されています。 |
+| [`gatsby-theme-blog-darkmode`](https://www.gatsbyjs.org/packages/gatsby-theme-blog-darkmode) | `gatsby-theme-blog` にダークモード機能を追加できるテーマです。利用するときには `gatsby-theme-blog` といっしょに利用する必要があります。 |
 | [`gatsby-theme-notes`](https://www.gatsbyjs.org/packages/gatsby-theme-notes) | メモ集サイト用のテーマです。 |
 | [`gatsby-theme-ui-preset`](https://www.gatsbyjs.org/packages/gatsby-theme-ui-preset) | 他の公式テーマが使うための Theme UI の設定だけを提供するテーマです（と公式に書かれていますが、他の公式テーマでこれを使っているものは現状無いようです）。 |
