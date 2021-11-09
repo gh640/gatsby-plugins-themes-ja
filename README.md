@@ -2,7 +2,7 @@
 
 ![Gatsby](https://raw.githubusercontent.com/gh640/gatsby-plugins-themes-ja/main/assets/gatsbyjs_com.png)
 
-React ベースの静的サイトジェネレーター [Gatsby](https://www.gatsbyjs.org/) が公式に提供するプラグインとテーマについてまとめました。
+React ベースの静的サイトジェネレーター [Gatsby](https://www.gatsbyjs.com/) が公式に提供するプラグインとテーマについてまとめました。
 
 正確には、公式の monorepo リポジトリ ↓ に含まれているプラグインとテーマの一覧です。
 
